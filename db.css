@@ -1,0 +1,554 @@
+
+html, body, div {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    border: 0 none;
+    font-family: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: bold;
+    line-height: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+a, p, ul, ol, li, img, span, strong, em {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+table, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+applet, object, iframe, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, font, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, caption, fieldset, form, label, legend {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, figure, footer, header, hgroup, section {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark, audio, video {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+b, strong {
+    font-weight: bold;
+}
+em, i {
+    font-style: italic;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+:focus {
+    outline: 0 none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+legend {
+    background-color: #FFFFFF;
+    color: #0071AB;
+    font-size: 14px;
+    font-weight: bold;
+    left: 5px;
+    padding: 0 5px;
+    position: relative;
+    top: 0;
+    z-index: 200;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, .grid-20, .grid-21, .grid-22, .grid-23, .grid-24 {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.clearfix:after {
+    font-size: 0;
+}
+img {
+    vertical-align: bottom;
+}
+
+*::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+input, button, select, textarea {
+    margin: 0;
+    vertical-align: middle;
+}
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #DDDDDD 100%) repeat scroll 0 0 transparent;
+    border-color: #DDDDDD #BBBBBB #999999;
+    border-image: none;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    cursor: pointer;
+    font: bold 12px/1.2 Arial,sans-serif;
+    outline: 0 none;
+    overflow: visible;
+    padding: 3px 10px 4px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: auto;
+}
+textarea, select, input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-box-sizing: border-box;
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border-color: #848484 #C1C1C1 #E1E1E1;
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    height: 1.8em;
+    outline: 0 none;
+    padding: 2px 3px;
+}
+input.placeholder_text, textarea.placeholder_text, input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #888888;
+}
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+    box-shadow: 0 0 7px #0066FF;
+    z-index: 1;
+}
+input[type="file"]:focus, input[type="file"]:active, input[type="radio"]:focus, input[type="radio"]:active, input[type="checkbox"]:focus, input[type="checkbox"]:active {
+    box-shadow: none;
+}
+select[disabled], textarea[disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="datetime-local"][disabled], input[type="email"][disabled], input[type="month"][disabled], input[type="number"][disabled], input[type="password"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="text"][disabled], input[type="time"][disabled], input[type="url"][disabled], input[type="week"][disabled] {
+    background-color: #EEEEEE;
+}
+button[disabled], input[disabled], select[disabled], select[disabled] option, select[disabled] optgroup, textarea[disabled] {
+    -moz-user-select: none;
+    box-shadow: none;
+    color: #888888;
+    cursor: default;
+}
+textarea, select[size], select[multiple] {
+    height: auto;
+}
+select[size], select[multiple] {
+    background-image: none;
+    padding: 0;
+}
+textarea {
+    min-height: 40px;
+    overflow: auto;
+    resize: vertical;
+    width: 100%;
+}
+* html button {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.ie6-input, * html textarea, * html select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #848484 #C1C1C1 #E1E1E1;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    padding: 2px 3px 1px;
+    vertical-align: top;
+}
+* html select {
+    margin-top: 1px;
+}
+.placeholder_text, .ie6-input-disabled, .ie6-button-disabled {
+    color: #888888;
+}
+.ie6-input-disabled {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.form-actions input {
+    margin-right: 0.5em;
+}
+.form-actions input:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+table {
+    border: 1px solid #CCCCCC;
+    width: 100%;
+}
+thead th, th {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border-bottom: 1px solid #CCCCCC;
+    color: #333333;
+}
+td, th {
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+th a, th a:link, th a:visited {
+    text-decoration: none;
+}
+th a {
+    display: block;
+}
+th a img {
+    margin: 0 0 0 5px;
+}
+th.active {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+tr.even td {
+    background: none repeat scroll 0 0 #F1F5FA;
+}
+tr.odd td {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+td.active {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+tr.even td.active {
+    background: none repeat scroll 0 0 #E5E9ED;
+}
+tr.odd td.active {
+    background: none repeat scroll 0 0 #F2F2F2;
+}
+tr:hover td, tr.even:hover td.active, tr.odd:hover td.active {
+}
+td ul.links {
+    margin-bottom: 0;
+}
+body {
+    color: #00263A;
+    font-family: HelveticaNeueMedium,Arial,sans-serif;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+body a {
+    color: #0071AB;
+    text-decoration: none;
+}
+a:hover {
+    color: #0098E6;
+}
+h1 {
+    color: #01243E;
+    font-size: 24px;
+    font-weight: bold;
+}
+h2 {
+    color: #0071AB;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    float: left;
+    margin: 3px 5px 0 0;
+}
+.formRow {
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.formRow label {
+    float: left;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.formRow input {
+}
+.formRow .checkbox {
+    margin: 5px;
+}
+.formRow .radio {
+    margin-left: 5px;
+}
+.formRow textarea {
+    clear: both;
+    display: block;
+    float: none;
+}
+.select-row {
+    margin-bottom: 0;
+}
+button, input[type="reset"], input[type="submit"], input[type="button"] {
+    font-size: 16px;
+}
+form .checkbox {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+form .radio {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+form .dia_field_name {
+    display: inline;
+    float: left;
+}
+.input-spacer {
+    clear: both;
+    display: block;
+    height: 10px;
+}
+.formcell, td.left, td.right {
+    font-weight: normal;
+}
+.formcell a, td.left a, td.right a {
+    text-decoration: none;
+}
+.queryForm .formRow {
+    display: block;
+    margin-bottom: 0;
+}
+.queryForm .formRow input {
+    margin-bottom: 0;
+}
+.queryForm .text-label {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: -2px;
+    margin-right: 10px;
+}
+tbody {
+    border-top: medium none;
+}
+textarea.blockInput {
+    display: block;
+}
+.query .formRow {
+    padding-bottom: 0;
+}
+.query .errorText {
+    color: red;
+    font-size: 12px;
+    height: 0;
+}
+.query span.required {
+    color: #CC0000;
+}
+.query .date {
+    display: none;
+}
+.query .message {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #92E8DB;
+    border-color: #333366;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0;
+    clear: both;
+    color: #333366;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 60%;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.query textarea {
+    font-family: Tahoma,sans-serif;
+    font-size: 12px;
+}
+div.query {
+    padding-bottom: 20px;
+}
+.query input[type="checkbox"] {
+    float: left;
+    margin-top: 0;
+}
+.query #left_container, .query #right_container {
+    float: left;
+}
+.query #left_container {
+    width: 40%;
+}
+.query #right_container {
+    width: 60%;
+}
+.query .queryForm .formRow {
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    width: 222px;
+}
+.query .queryForm .formRow label {
+    display: block;
+    float: left;
+    margin-bottom: 2px;
+}
+.query .queryForm .formRow input {
+    display: block;
+    float: left;
+    width: 200px;
+}
+.query .queryForm .formRow select {
+    width: 200px;
+}
+.query label.error, .query input.error, .query select.error {
+    color: #980733;
+}
+.query fieldset.queryForm {
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+    width: 95%;
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 10px;
+}
+fieldset.queryForm > legend {
+	font-size: 1.2em;
+    font-weight: bold;
+}
+
+fieldset.queryForm form > legend {
+	font-size: 1.2em;
+    font-weight: bold;
+}
+
+form fieldset {
+    border: 1px solid #CCCCCC;
+    padding: 0 10px 10px;
+}
+.query .queryForm .formRow label {
+	display: block;
+    float: left;
+    margin-bottom: 2px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.queryForm span.required {
+    color: #CC0000;
+}
+div.statsTable {
+	clear: both;
+	border: 1px solid #CCCCCC;
+	padding: 0 10px 10px 10px;
+	width: 95%;
+	margin-bottom: 20px;
+}
+.statsTable table {
+	border: 0 none;
+}
+.query .formcell.left {
+    width: 160px;
+}
+.form-item, .form-checkboxes, .form-radios {
+    margin: 1em 0;
+}
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+    border: 2px solid #CC0000;
+}
+.form-item label {
+    display: block;
+    font-weight: bold;
+}
+.form-item label.option {
+    display: inline;
+    font-weight: normal;
+}
+.form-required {
+    color: #78052C;
+}
+.form-item .description {
+    font-size: 0.85em;
+}
+.form-checkboxes .form-item, .form-radios .form-item {
+    margin: 0.4em 0;
+}
+.form-submit {
+    vertical-align: top;
+}
+.container-inline div, .container-inline label {
+    display: inline;
+}
+
+#addQueryButton {
+    margin: -10px 0 0;
+}
+#addQueryButton input {
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
